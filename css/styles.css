@@ -2,7 +2,6 @@
 
 /* Headline */
 
-
 h1 {
   font-family: 'Francois One', sans-serif;
   font-size: 140px;
@@ -11,8 +10,27 @@ h1 {
 }
 
 hr {
-  margin-top: -30px;
-  width: 900px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  width: 950px;
+}
+
+hr#line2 {
+  margin-top: 20px;
+  width: 950px;
+}
+
+body {
+  background: url(../img/cream_dust.png);
+}
+
+footer {
+  font-family: 'Roboto Slab', serif;
+  margin-top: 130px;
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  color: #ccc;
 }
 
 
@@ -37,19 +55,21 @@ hr {
   height: 400px;
   overflow: hidden;
   text-align: center;
-  background: white;
+  background: url(../img/cream_dust.png);
 }
 .gallery .controls {
   position: absolute;
-  bottom: -120px;
+  bottom: -115px;
   width: 100%;
   text-align: center;
 }
 
 .gallery .controls img {
   border: 3px solid #000;
-  height: 100px;
-  width: 100px;
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+
 }
 
 .gallery .control-button {
