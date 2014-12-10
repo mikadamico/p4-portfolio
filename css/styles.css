@@ -16,14 +16,6 @@ hr {
 }
 
 
-
-img {
-  height: 285px;
-  width: 285px;
-  margin-top: 5em;
-}
-
-
 /* Gallery Stying */
 .gallery .control-button {
   color: white;
@@ -55,7 +47,9 @@ img {
 }
 
 .gallery .controls img {
-  border: 5px solid #000;
+  border: 3px solid #000;
+  height: 100px;
+  width: 100px;
 }
 
 .gallery .control-button {
