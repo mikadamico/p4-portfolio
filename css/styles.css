@@ -67,6 +67,8 @@ footer {
           transform: rotate(360deg);
 }
 
+
+
 /* Gallery Stying */
 .gallery .control-button {
   color: white;
@@ -99,7 +101,6 @@ footer {
 
 .gallery .controls img {
   border: 3px solid #000;
-  border-radius: 100%;
   height: 75px;
   width: 75px;
 
